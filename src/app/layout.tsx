@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SNHT-SHOP",
-  description: "Stevhans pharmacy",
+  description: "Safo Nyame Herbal Shop & consult",
 };
 
 export default function RootLayout({

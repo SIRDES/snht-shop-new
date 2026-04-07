@@ -146,7 +146,7 @@ export default function Login() {
           Add Admin Staff
         </Button> */}
         <Typography variant="h5" textAlign={"center"} gutterBottom>
-          STEVHANS PHARMACY
+          SNHT-SHOP & CONSULT
         </Typography>
 
         <Box sx={{ mx: "auto", width: { xs: "100%", sm: "80%", md: "40%" } }}>
