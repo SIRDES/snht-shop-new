@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SH-PHARMACY",
+  title: "SNHT-SHOP",
   description: "Stevhans pharmacy",
 };
 

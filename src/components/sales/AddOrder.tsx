@@ -508,7 +508,7 @@ function AddNewOrder() {
                   >
                     Save
                   </Button>
-                  <Button
+                  {/* <Button
                     fullWidth
                     variant="contained"
                     color="warning"
@@ -518,8 +518,8 @@ function AddNewOrder() {
                     sx={{ p: 0.2, borderRadius: 2, boxShadow: 2 }}
                   >
                     Save as draft
-                  </Button>
-                  <Button
+                  </Button> */}
+                  {/* <Button
                     fullWidth
                     variant="contained"
                     color="success"
@@ -529,7 +529,7 @@ function AddNewOrder() {
                     sx={{ p: 0.2, borderRadius: 2, boxShadow: 2, fontSize: "0.8rem" }}
                   >
                     Save & Print
-                  </Button>
+                  </Button> */}
                 </Box>
               </Box>
             </form>

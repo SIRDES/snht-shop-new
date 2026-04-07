@@ -179,7 +179,7 @@ export default function DashboardSideNav({
               color={theme.palette.common.white}
               gutterBottom
             >
-              SH-PHARMACY
+                SNHT-SHOP
             </Typography>
 
             {/* batch dropdown */}

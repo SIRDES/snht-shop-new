@@ -93,19 +93,19 @@ export default function AddSalesPage() {
           // variant="fullWidth"
           >
             <Tab label="New Sales" {...a11yProps(0)} />
-            <Tab label="All Drafts" {...a11yProps(1)} />
-            <Tab label="Edit Draft" {...a11yProps(2)} disabled />
+            {/* <Tab label="All Drafts" {...a11yProps(1)} />
+            <Tab label="Edit Draft" {...a11yProps(2)} disabled /> */}
           </Tabs>
         </AppBar>
         <TabPanel value={value} index={0} dir={theme.direction}>
           <AddNewOrder />
         </TabPanel>
-        <TabPanel value={value} index={1} dir={theme.direction}>
+        {/* <TabPanel value={value} index={1} dir={theme.direction}>
           <AllDrafts handleEditDraft={handleEditDraft} />
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
           <EditDraft draftId={editDraftId} handleGoToDrafts={() => setValue(1)} />
-        </TabPanel>
+        </TabPanel> */}
       </Box></>
   );
 }

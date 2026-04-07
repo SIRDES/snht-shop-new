@@ -88,7 +88,7 @@ export default function MobileNavMenu({
           }}
         >
           <Toolbar>
-            <Typography sx={{ flexGrow: 1 }} variant="h6" color={"primary"}>SH-PHARMACY</Typography>
+            <Typography sx={{ flexGrow: 1 }} variant="h6" color={"primary"}>SNHT-SHOP</Typography>
             <Box
               sx={{
                 // justifyContent: "flex-end",
@@ -143,7 +143,7 @@ export default function MobileNavMenu({
           }}
         >
           <Box sx={{ display: "flex", justifyContent: "space-between", padding: "10px" }}>
-            <Typography variant="h6" color={"white"}>SH-PHARMACY</Typography>
+            <Typography variant="h6" color={"white"}>SNHT-SHOP</Typography>
             <IconButton onClick={handleMobileMenuClose}>
               <CloseIcon sx={{ color: "#fff" }} />
             </IconButton>

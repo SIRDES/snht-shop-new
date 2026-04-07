@@ -586,7 +586,7 @@ function EditDraftPage({ draftId, handleGoToDrafts }: { draftId: string | null, 
                                     >
                                         Save
                                     </Button>
-                                    <Button
+                                    {/* <Button
                                         fullWidth
                                         variant="contained"
                                         color="warning"
@@ -596,8 +596,8 @@ function EditDraftPage({ draftId, handleGoToDrafts }: { draftId: string | null, 
                                         sx={{ p: 0.2, borderRadius: 2, boxShadow: 2 }}
                                     >
                                         Save as draft
-                                    </Button>
-                                    <Button
+                                    </Button> */}
+                                    {/* <Button
                                         fullWidth
                                         variant="contained"
                                         color="success"
@@ -607,7 +607,7 @@ function EditDraftPage({ draftId, handleGoToDrafts }: { draftId: string | null, 
                                         sx={{ p: 0.2, borderRadius: 2, boxShadow: 2, fontSize: "0.8rem" }}
                                     >
                                         Save & Print
-                                    </Button>
+                                    </Button> */}
                                 </Box>
 
                             </Box>
