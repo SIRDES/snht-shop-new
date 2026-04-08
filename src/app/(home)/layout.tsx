@@ -1,5 +1,6 @@
 "use client";
 import DashboardSideNav from "@/components/DashboardSideNav";
+import Loader from "@/components/Loader";
 import LoadingAlert from "@/components/LoadingAlert";
 import PageHeader from "@/components/PageHeader";
 import { adminNavLists } from "@/utils/mainNavLists";
@@ -17,7 +18,7 @@ export default function AdminLayout({
   const [sideNavWidth, setSideNavWidth] = useState("247px");
 
   if (session?.status === "loading") {
-    return <LoadingAlert open={true} />;
+    return <Loader />;
   }
   if (session?.status === "unauthenticated") {
     router.push("/login");

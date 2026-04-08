@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation'
 import { useSession } from "next-auth/react"
 import LoadingAlert from '@/components/LoadingAlert'
 import { useEffect } from 'react'
+import Loader from '@/components/Loader'
 
 export default function Home() {
   const { data: session, status } = useSession()
@@ -20,5 +21,6 @@ export default function Home() {
     }
   }, [status, session])
 
-  return <LoadingAlert open={true} />
+  // return <LoadingAlert open={true} />
+  return <Loader />
 }

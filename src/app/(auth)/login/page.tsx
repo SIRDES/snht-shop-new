@@ -23,6 +23,7 @@ import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import { AddUser } from "@/utils/serverActions/user";
 import { showAlert } from "@/components/Alerts";
+import Loader from "@/components/Loader";
 
 const schema = Yup.object().shape({
   email: Yup.string().required(),
@@ -123,7 +124,7 @@ export default function Login() {
   // };
 
   if (session?.status === "loading") {
-    return <LoadingAlert open={true} />;
+    return <Loader />;
   }
   if (session?.status === "authenticated") {
     router.push("/dashboard");

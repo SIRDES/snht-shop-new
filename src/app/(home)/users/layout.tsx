@@ -1,4 +1,5 @@
 "use client";
+import Loader from "@/components/Loader";
 import LoadingAlert from "@/components/LoadingAlert";
 import { signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
@@ -12,7 +13,7 @@ export default function UsersLayout({
     const router = useRouter();
 
     if (session?.status === "loading") {
-        return <LoadingAlert open={true} />;
+        return <Loader />;
     }
     if (session?.status === "unauthenticated") {
         router.push("/login");
