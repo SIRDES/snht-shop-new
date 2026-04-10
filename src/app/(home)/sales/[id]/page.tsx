@@ -242,7 +242,7 @@ export default function OrderDetails({ params }: { params: Promise<{ id: string 
                   </Box>
                 )}
 
-              <Button
+              {/* <Button
                 variant="contained"
                 color="secondary"
                 size="small"
@@ -250,7 +250,7 @@ export default function OrderDetails({ params }: { params: Promise<{ id: string 
                 onClick={() => handlePrint()}
               >
                 Print
-              </Button>
+              </Button> */}
 
             </Box>
           </Box>
